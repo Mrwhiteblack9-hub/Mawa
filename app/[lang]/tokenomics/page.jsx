@@ -7,20 +7,18 @@ export default function Tokenomics(){
           <h3 className="text-xl font-semibold">Distribution</h3>
           <table className="w-full mt-4 text-sm text-white/80">
             <tbody>
-              <tr><td>Liquidity (DEX)</td><td className="text-right">55%</td></tr>
-              <tr><td>Airdrop & Community</td><td className="text-right">20%</td></tr>
-              <tr><td>Marketing</td><td className="text-right">15%</td></tr>
-              <tr><td>Listings</td><td className="text-right">5%</td></tr>
-              <tr><td>Team</td><td className="text-right">5%</td></tr>
+              <tr><td>Liquidity (DEX)</td><td className="text-right">78%</td></tr>
+              <tr><td>Vested</td><td className="text-right">2%</td></tr>
+              <tr><td>Migrating suply</td><td className="text-right">20%</td></tr>
             </tbody>
           </table>
         </div>
         <div className="card">
-          <h3 className="text-xl font-semibold">Recommended Parameters</h3>
+          <h3 className="text-xl font-semibold">MAWA token Parameters</h3>
           <ul className="mt-4 text-white/80">
             <li>Supply: 1,000,000,000</li>
-            <li>Decimals: 6 or 9</li>
-            <li>Mint authority: renounced (optional)</li>
+            <li>Decimals: 9</li>
+            <li>Mint authority: renounced </li>
             <li>LP lock: 12 months</li>
           </ul>
         </div>
