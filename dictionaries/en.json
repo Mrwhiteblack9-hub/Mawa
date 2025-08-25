@@ -17,8 +17,8 @@
     "vision_title": "Vision",
     "vision_text": "MAWA combines memecoin culture with serious execution. Premium branding, a public roadmap, and an engaged community.",
     "highlights_title": "Highlights",
-    "supply": "Recommended supply: 1,000,000,000",
-    "lp_lock": "Recommended LP lock: 12 months",
-    "tax": "Recommended tax: 0% (optional)"
+    "supply": "supply: 1,000,000,000",
+    "lp_lock": "LP lock: 12 months",
+    "tax": "tax: 2%"
   }
 }
