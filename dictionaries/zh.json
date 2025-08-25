@@ -1,0 +1,24 @@
+{
+  "buy_url": "https://jup.ag/swap/SOL-MAWA",
+  "nav": {
+    "about": "关于",
+    "tokenomics": "代币经济学",
+    "roadmap": "路线图",
+    "buy": "在 Jupiter 上购买"
+  },
+  "hero": {
+    "tag": "严肃的模因币",
+    "title": "MAWA — 力量, 优雅, 社区",
+    "description": "一个具有强大身份的严肃模因币 — 鳄鱼吉祥物，高端品牌和长远眼光。",
+    "tokenomics_btn": "代币经济学",
+    "contract": "SPL 合约"
+  },
+  "home": {
+    "vision_title": "愿景",
+    "vision_text": "MAWA 将模因币文化与严肃的执行相结合。高端的品牌，公开的路线图和积极参与的社区。",
+    "highlights_title": "亮点",
+    "supply": "建议供应量: 1,000,000,000",
+    "lp_lock": "建议 LP 锁定: 12 个月",
+    "tax": "建议税率: 0% (可选)"
+  }
+}

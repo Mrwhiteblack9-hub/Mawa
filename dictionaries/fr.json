@@ -1,0 +1,24 @@
+{
+  "buy_url": "https://jup.ag/swap/SOL-MAWA",
+  "nav": {
+    "about": "À propos",
+    "tokenomics": "Tokenomics",
+    "roadmap": "Roadmap",
+    "buy": "Acheter sur Jupiter"
+  },
+  "hero": {
+    "tag": "Mêmecoin sérieux",
+    "title": "MAWA — Force, Élégance, Communauté",
+    "description": "Un mêmecoin sérieux avec une identité forte — mascotte crocodile, branding premium, et vision long terme.",
+    "tokenomics_btn": "Tokenomics",
+    "contract": "Contrat SPL"
+  },
+  "home": {
+    "vision_title": "Vision",
+    "vision_text": "MAWA mélange culture mêmecoin et exécution sérieuse. Branding premium, roadmap publique et communauté engagée.",
+    "highlights_title": "Points Clés",
+    "supply": "Supply recommandé : 1,000,000,000",
+    "lp_lock": "LP lock conseillé : 12 mois",
+    "tax": "Taxe recommandée : 0% (optionnel)"
+  }
+}
