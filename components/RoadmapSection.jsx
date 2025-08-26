@@ -1,66 +1,59 @@
+// components/RoadmapSection.jsx
 import React from 'react';
-
-// This component displays the MAWA project roadmap.
+// This component displays a single roadmap item.
+const RoadmapItem = ({ phase, title, description }) => {
+  return (
+    <div className="flex flex-col md:flex-row items-center my-8">
+      <div className="md:w-1/4 mb-4 md:mb-0">
+        <h3 className="text-2xl font-bold text-center md:text-left">{phase}</h3>
+      </div>
+      <div className="md:w-3/4 md:pl-8">
+        <h4 className="text-xl font-semibold mb-2">{title}</h4>
+        <p className="text-gray-300">{description}</p>
+      </div>
+    </div>
+  );
+};
+// This is the main component for the roadmap section.
 const RoadmapSection = () => {
-  const roadmapItems = [
+  const roadmap = [
     {
-      status: '✅',
-      phase: 'Phase 1: Foundation',
-      title: '(COMPLETED)',
-      description: 'Premium branding, website launch, initial community building'
+      phase: 'Phase 1',
+      title: 'Foundation & Community Building',
+      description: '• Launching the MAWA meme project with a transparent vision. • Developing a strong community on Telegram and X (formerly Twitter). • Securing smart contract audit and ensuring security measures. • Initiating the first phase of our marketing campaign on social media.'
     },
     {
-      status: '🔄',
-      phase: 'Phase 2: Community Growth',
-      title: '(IN PROGRESS)',
-      description: 'Social media expansion, community engagement, pre-launch hype'
+      phase: 'Phase 2',
+      title: 'Strategic Launch & Visibility',
+      description: '• Fair Launch on Jupiter by January 15, 2025. • Locking liquidity for 12 months to ensure trust and security. • Deploying a massive marketing campaign, including partnerships with key influencers. • Gaining visibility on top crypto-ranking sites.'
     },
     {
-      status: '⏳',
-      phase: 'Phase 3: Jupiter Launch',
-      title: '(JANUARY 2025)',
-      description: 'Official token launch on Jupiter, initial liquidity provision'
+      phase: 'Phase 3',
+      title: 'Ecosystem Expansion & Domination',
+      description: '• Developing the first MAWA-themed NFT collection for our community. • Exploring partnerships with other Solana projects. • Launching exclusive merchandise for our community. • Unveiling plans for the MAWA token utility and ecosystem.'
     },
     {
-      status: '⏳',
-      phase: 'Phase 4: DEX Expansion',
-      title: '', // No date for future phases
-      description: 'Listings on major Solana DEXs, partnerships with other projects'
-    },
-    {
-      status: '⏳',
-      phase: 'Phase 5: CEX Listings',
-      title: '',
-      description: 'Centralized exchange listings, global market expansion'
-    },
-    {
-      status: '⏳',
-      phase: 'Phase 6: Ecosystem Development',
-      title: '',
-      description: 'Introduction of MAWA Pay (B2B/P2P payments), ride-sharing and food delivery platform, NFT collections, community rewards program'
+      phase: 'Phase 4',
+      title: 'Apex Predator Status',
+      description: '• Targeting major CEX listings to increase accessibility. • Implementing more long-term utility for the token, such as staking rewards. • Expanding our community globally and solidifying our position as a leading memecoin on Solana. • Continuing to grow the MAWA brand with unique initiatives.'
     },
   ];
-
   return (
-    <section className="py-16 bg-gray-800 text-white">
+    <section className="py-16 bg-gray-900 text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">The MAWA Journey</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {roadmapItems.map((item, index) => (
-            <div key={index} className="bg-gray-700 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <h3 className="text-2xl font-bold mb-2 flex items-center">
-                <span className="mr-2">{item.status}</span>
-                {item.phase}
-              </h3>
-              {item.title && <p className="text-lg text-gray-400 mb-2">{item.title}</p>}
-              <p className="text-gray-300">{item.description}</p>
-            </div>
+        <h2 className="text-4xl font-bold text-center mb-12">Roadmap</h2>
+        <div className="max-w-4xl mx-auto">
+          {roadmap.map((item, index) => (
+            <RoadmapItem
+              key={index}
+              phase={item.phase}
+              title={item.title}
+              description={item.description}
+            />
           ))}
         </div>
       </div>
     </section>
   );
 };
-
 export default RoadmapSection;
-
