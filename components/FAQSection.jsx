@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 // components/FAQSection.jsx
 import React from 'react';
 
 // Ce composant affiche une seule question/réponse de la FAQ.
+=======
+import React from 'react';
+
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
 const FAQItem = ({ question, answer }) => {
   return (
     <div className="border-b border-gray-700 py-6">
@@ -11,7 +16,10 @@ const FAQItem = ({ question, answer }) => {
   );
 };
 
+<<<<<<< HEAD
 // Ce composant affiche la section complète de la FAQ.
+=======
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
 const FAQSection = () => {
   const faqItems = [
     {
@@ -37,7 +45,11 @@ const FAQSection = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <section className="py-16 bg-gray-900 text-white">
+=======
+    <section id="faq" className="py-16 bg-gray-900 text-white">
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">FAQ</h2>
         <div className="max-w-4xl mx-auto">

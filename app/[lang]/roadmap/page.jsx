@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default function Roadmap(){
   const items = [
     {title: 'Phase 1 - Launch', points: ['SPL Token Deployment', 'Website & Branding', 'LP on Jupiter']},
@@ -8,6 +9,20 @@ export default function Roadmap(){
   return (
     <div className="max-w-5xl mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold">Roadmap</h2>
+=======
+import React from 'react';
+
+const RoadmapPage = () => {
+  const items = [
+    {title: 'Phase 1 - Lancement', points: ['Déploiement du token SPL', 'Site web & Branding', 'LP sur Jupiter']},
+    {title: 'Phase 2 - Visibilité', points: ['Listing CMC/CG', 'Campagnes KOL', 'Concours de communauté']},
+    {title: 'Phase 3 - Expansion', points: ['Partenariats', 'NFTs / Mini-jeux']},
+    {title: 'Phase 4 - Durabilité', points: ['Gouvernance légère', 'Événements en personne']}
+  ]
+  return (
+    <div className="max-w-5xl mx-auto px-6 py-12">
+      <h2 className="text-3xl font-bold">Feuille de route</h2>
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
       <div className="mt-8 space-y-6">
         {items.map((it, idx)=>(
           <div className="card" key={idx}>
@@ -21,3 +36,7 @@ export default function Roadmap(){
     </div>
   )
 }
+<<<<<<< HEAD
+=======
+export default RoadmapPage;
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)

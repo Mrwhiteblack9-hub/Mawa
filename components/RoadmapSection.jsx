@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 // components/RoadmapSection.jsx
 import React from 'react';
 
 // Ce composant affiche un seul élément de la feuille de route.
+=======
+import React from 'react';
+
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
 const RoadmapItem = ({ phase, title, description }) => {
   return (
     <div className="flex flex-col md:flex-row items-center my-8">
@@ -16,7 +21,10 @@ const RoadmapItem = ({ phase, title, description }) => {
   );
 };
 
+<<<<<<< HEAD
 // C'est le composant principal pour la section de la feuille de route.
+=======
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
 const RoadmapSection = () => {
   const roadmap = [
     {
@@ -41,7 +49,11 @@ const RoadmapSection = () => {
     },
   ];
   return (
+<<<<<<< HEAD
     <section className="py-16 bg-gray-900 text-white">
+=======
+    <section id="roadmap" className="py-16 bg-gray-900 text-white">
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Roadmap</h2>
         <div className="max-w-4xl mx-auto">

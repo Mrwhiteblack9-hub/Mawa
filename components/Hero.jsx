@@ -1,6 +1,10 @@
 import Link from 'next/link';
 
 export default function Hero({ lang, dict }){
+<<<<<<< HEAD
+=======
+  // Code here as before, I will not modify it unless you explicitly ask.
+>>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
   return (
     <section className="relative grid lg:grid-cols-5 gap-8 items-center">
       <div className="lg:col-span-3">
