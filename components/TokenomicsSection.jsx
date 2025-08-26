@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 const TokenomicsSection = () => {
@@ -33,3 +34,35 @@ const TokenomicsSection = () => {
 };
 
 export default TokenomicsSection;
+=======
+export default function TokenomicsSection() {
+  return (
+    <section id="tokenomics">
+      <h2 className="text-4xl font-bold mb-6">Tokenomics</h2>
+      <div className="grid md:grid-cols-2 gap-6">
+        <div className="card">
+          <h3 className="text-xl font-semibold">Distribution</h3>
+          <table className="w-full mt-4 text-sm text-white/80">
+            <tbody>
+              <tr><td>Liquidity (DEX)</td><td className="text-right font-semibold">78%</td></tr>
+              <tr><td>Vested</td><td className="text-right font-semibold">2%</td></tr>
+              <tr><td>Migrating supply</td><td className="text-right font-semibold">20%</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="card">
+          <h3 className="text-xl font-semibold">MAWA token parameters</h3>
+          <ul className="mt-4 text-white/80 space-y-1">
+            <li><span className="font-semibold">Supply:</span> 1,000,000,000</li>
+            <li><span className="font-semibold">Decimals:</span> 9</li>
+            <li><span className="font-semibold">Mint authority:</span> renounced</li>
+            <li><span className="font-semibold">LP lock:</span> 12 months</li>
+            <li><span className="font-semibold">Tax:</span> 2%</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
+}
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)

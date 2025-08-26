@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 const AboutSection = () => {
@@ -19,3 +20,28 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+=======
+export default function AboutSection() {
+  return (
+    <section id="about">
+      <h2 className="text-4xl font-bold mb-6">À propos de MAWA</h2>
+      <div className="grid lg:grid-cols-2 gap-8">
+        <div className="card">
+          <h3 className="text-xl font-semibold">Notre mission</h3>
+          <p className="mt-3 text-white/80">
+            Créer un memecoin qui combine identité forte, exécution propre et une communauté durable.
+          </p>
+        </div>
+        <div className="card">
+          <h3 className="text-xl font-semibold">Engagements</h3>
+          <ul className="mt-3 text-white/80 list-disc pl-5 space-y-1">
+            <li>Transparence</li>
+            <li>Communication régulière</li>
+            <li>Roadmap publique</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
+}
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)

@@ -26,5 +26,9 @@ export function middleware(request) {
 }
 
 export const config = {
+<<<<<<< HEAD
   matcher: ['/((?!api|_next/static|_next/image|favicon.ico|logo.jpg|banner.jpg).*)'],
+=======
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|logo.jpg|banner.jpg).*)']
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
 }

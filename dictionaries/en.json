@@ -1,20 +1,36 @@
 {
   "buy_url": "https://jup.ag/swap/SOL-MAWA",
+<<<<<<< HEAD
+=======
+  "social": {
+    "telegram": "https://t.me/mawasolana",
+    "x": "https://x.com/Mawathecroco"
+  },
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
   "nav": {
     "about": "About",
     "tokenomics": "Tokenomics",
     "roadmap": "Roadmap",
+<<<<<<< HEAD
     "buy": "Buy on Jupiter"
+=======
+    "buy": "Buy"
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
   },
   "hero": {
     "tag": "The Serious Memecoin",
     "title": "MAWA — Strength, Elegance, Community",
+<<<<<<< HEAD
     "description": "A serious memecoin with a strong identity — crocodile mascot, premium branding, and a long-term vision.",
+=======
+    "description": "MAWA is a memecoin on Solana with a crocodile mascot, premium branding and a long-term vision.",
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
     "tokenomics_btn": "Tokenomics",
     "contract": "SPL Contract"
   },
   "home": {
     "vision_title": "Vision",
+<<<<<<< HEAD
     "vision_text": "MAWA combines memecoin culture with serious execution. Premium branding, a public roadmap, and an engaged community.",
     "highlights_title": "Highlights",
 <<<<<<< HEAD
@@ -26,5 +42,49 @@
     "lp_lock": "Recommended LP lock: 12 months",
     "tax": "Recommended tax: 0% (optional)"
 >>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
+=======
+    "vision_text": "MAWA combines memecoin culture with professional execution. Strong identity, locked liquidity and transparent tokenomics.",
+    "highlights_title": "Highlights",
+    "supply": "Supply: 1,000,000,000",
+    "lp_lock": "LP lock: 12 months",
+    "tax": "Tax: 2%"
+  },
+  "tokenomics": {
+    "title": "Tokenomics",
+    "distribution": [
+      {"label":"Liquidity (DEX)","value":"78%"},
+      {"label":"Vested","value":"2%"},
+      {"label":"Migrating supply","value":"20%"}
+    ],
+    "parameters": {
+      "supply":"1,000,000,000",
+      "decimals":"9",
+      "mint_authority":"renounced",
+      "lp_lock":"12 months",
+      "tax":"2%"
+    }
+  },
+  "roadmap": {
+    "title":"The MAWA Journey",
+    "phases":[
+      {"phase":"Phase 1: Foundation","status":"COMPLETED","desc":"Premium branding, website launch, initial community building."},
+      {"phase":"Phase 2: Community Growth","status":"IN PROGRESS","desc":"Social expansion, community engagement, pre-launch hype."},
+      {"phase":"Phase 3: Jupiter Launch","status":"PLANNED","date":"2025-01-15","desc":"Official token launch on Jupiter, initial liquidity provision."},
+      {"phase":"Phase 4: DEX Expansion","status":"PLANNED","desc":"Listings on major Solana DEXs and project partnerships."},
+      {"phase":"Phase 5: CEX Listings","status":"PLANNED","desc":"Centralized exchange listings and global expansion."},
+      {"phase":"Phase 6: Ecosystem Development","status":"PLANNED","desc":"MAWA merchandise, NFT collections, community rewards programs."}
+    ]
+  },
+  "faq": {
+    "title":"Frequently Asked Questions",
+    "items":[
+      {"q":"Why choose MAWA over other memecoins?","a":"MAWA stands out with premium branding, a long-term vision, the crocodile identity, locked liquidity (12 months), and transparent tokenomics."},
+      {"q":"Why a crocodile for a memecoin?","a":"Crocodiles are resilient, adaptable, and patient hunters. They symbolize strength and apex predator status — qualities MAWA aims to reflect."},
+      {"q":"When exactly is the launch date?","a":"MAWA is scheduled to launch on Jupiter on January 15, 2025. Follow our social channels for exact announcements and realtime updates."},
+      {"q":"Is the liquidity really locked for 12 months?","a":"Yes. Liquidity will be locked for 12 months using verifiable on-chain locks via Jupiter Studio."},
+      {"q":"How can I join the MAWA community?","a":"Join us on X: https://x.com/Mawathecroco and Telegram: https://t.me/mawasolana."},
+      {"q":"What are the tokenomics and fee structure?","a":"Total supply: 1,000,000,000. Distribution: Liquidity 78%, Vested 2%, Migrating supply 20%. Transaction tax: 2%. LP lock: 12 months."}
+    ]
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
   }
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // components/RoadmapSection.jsx
 import React from 'react';
 
@@ -72,3 +73,36 @@ const RoadmapSection = () => {
 };
 
 export default RoadmapSection;
+=======
+function Phase({ phase, status, desc, date }) {
+  return (
+    <div className="card">
+      <div className="flex items-center justify-between">
+        <h3 className="text-xl font-semibold">{phase}</h3>
+        <div className="text-sm text-white/60">{status}{date ? ` • ${date}` : ''}</div>
+      </div>
+      <p className="mt-3 text-white/80">{desc}</p>
+    </div>
+  )
+}
+
+export default function RoadmapSection() {
+  const phases = [
+    { phase: 'Phase 1: Foundation', status: '✅ COMPLETED', desc: 'Premium branding, website launch, initial community building.' },
+    { phase: 'Phase 2: Community Growth', status: '🔄 IN PROGRESS', desc: 'Social media expansion, community engagement, pre-launch hype.' },
+    { phase: 'Phase 3: Jupiter Launch', status: '⏳ PLANNED', date: '2025-01-15', desc: 'Official token launch on Jupiter, initial liquidity provision.' },
+    { phase: 'Phase 4: DEX Expansion', status: '⏳ PLANNED', desc: 'Listings on major Solana DEXs, partnerships.' },
+    { phase: 'Phase 5: CEX Listings', status: '⏳ PLANNED', desc: 'Centralized exchange listings, global market expansion.' },
+    { phase: 'Phase 6: Ecosystem Development', status: '⏳ PLANNED', desc: 'MAWA merchandise, NFT collections, community rewards program.' }
+  ]
+
+  return (
+    <section id="roadmap">
+      <h2 className="text-4xl font-bold mb-6">The MAWA Journey</h2>
+      <div className="grid md:grid-cols-2 gap-6">
+        {phases.map((p, i)=>(<Phase key={i} {...p}/>))}
+      </div>
+    </section>
+  )
+}
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)

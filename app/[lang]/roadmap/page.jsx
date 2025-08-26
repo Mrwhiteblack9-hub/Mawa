@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default function Roadmap(){
   const items = [
     {title: 'Phase 1 - Launch', points: ['SPL Token Deployment', 'Website & Branding', 'LP on Jupiter']},
@@ -40,3 +41,13 @@ const RoadmapPage = () => {
 =======
 export default RoadmapPage;
 >>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
+=======
+import RoadmapSection from '../../../components/RoadmapSection'
+export default function RoadmapPage(){
+  return (
+    <div className="container section">
+      <RoadmapSection />
+    </div>
+  )
+}
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default function Tokenomics(){
 =======
 import React from 'react';
@@ -52,3 +53,13 @@ const TokenomicsPage = () => {
 =======
 export default TokenomicsPage;
 >>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
+=======
+import TokenomicsSection from '../../../components/TokenomicsSection'
+export default function TokenomicsPage(){
+  return (
+    <div className="container section">
+      <TokenomicsSection />
+    </div>
+  )
+}
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)

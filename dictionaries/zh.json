@@ -1,24 +1,85 @@
 {
   "buy_url": "https://jup.ag/swap/SOL-MAWA",
+<<<<<<< HEAD
+=======
+  "social": {
+    "telegram": "https://t.me/mawasolana",
+    "x": "https://x.com/Mawathecroco"
+  },
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
   "nav": {
     "about": "关于",
     "tokenomics": "代币经济学",
     "roadmap": "路线图",
+<<<<<<< HEAD
     "buy": "在 Jupiter 上购买"
   },
   "hero": {
     "tag": "严肃的模因币",
     "title": "MAWA — 力量, 优雅, 社区",
     "description": "一个具有强大身份的严肃模因币 — 鳄鱼吉祥物，高端品牌和长远眼光。",
+=======
+    "buy": "购买"
+  },
+  "hero": {
+    "tag": "严肃的模因币",
+    "title": "MAWA — 力量、优雅、社区",
+    "description": "MAWA 是在 Solana 上的模因币，拥有鳄鱼吉祥物、高端品牌与长期愿景。",
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
     "tokenomics_btn": "代币经济学",
     "contract": "SPL 合约"
   },
   "home": {
     "vision_title": "愿景",
+<<<<<<< HEAD
     "vision_text": "MAWA 将模因币文化与严肃的执行相结合。高端的品牌，公开的路线图和积极参与的社区。",
     "highlights_title": "亮点",
     "supply": "建议供应量: 1,000,000,000",
     "lp_lock": "建议 LP 锁定: 12 个月",
     "tax": "建议税率: 0% (可选)"
+=======
+    "vision_text": "MAWA 将模因文化与专业执行相结合。强烈身份、流动性锁定与透明的代币经济学。",
+    "highlights_title": "亮点",
+    "supply": "总量：1,000,000,000",
+    "lp_lock": "流动性锁定：12 个月",
+    "tax": "税率：2%"
+  },
+  "tokenomics": {
+    "title": "代币经济学",
+    "distribution": [
+      {"label":"流动性 (DEX)","value":"78%"},
+      {"label":"解锁 (Vested)","value":"2%"},
+      {"label":"迁移供应 (Migrating supply)","value":"20%"}
+    ],
+    "parameters": {
+      "supply":"1,000,000,000",
+      "decimals":"9",
+      "mint_authority":"已放弃 (renounced)",
+      "lp_lock":"12 个月",
+      "tax":"2%"
+    }
+  },
+  "roadmap": {
+    "title":"MAWA 之旅",
+    "phases":[
+      {"phase":"阶段 1：基础","status":"已完成","desc":"高端品牌、网站上线、初始社区建设。"},
+      {"phase":"阶段 2：社区增长","status":"进行中","desc":"社媒扩展、社区参与、预热活动。"},
+      {"phase":"阶段 3：Jupiter 上线","status":"计划中","date":"2025-01-15","desc":"在 Jupiter 的正式发币，上线初始流动性。"},
+      {"phase":"阶段 4：DEX 扩展","status":"计划中","desc":"在主要 Solana DEX 上线并展开合作。"},
+      {"phase":"阶段 5：CEX 上线","status":"计划中","desc":"在中心化交易所上架，全球市场扩张。"},
+      {"phase":"阶段 6：生态发展","status":"计划中","desc":"周边商品、NFT 系列、社区奖励计划。"}
+    ]
+  },
+  "faq": {
+    "title":"常见问题",
+    "items":[
+      {"q":"为什么选择 MAWA？","a":"MAWA 以高端品牌、长期愿景、鳄鱼标识与透明代币经济学脱颖而出。流动性将锁定 12 个月，执行可验证。"},
+      {"q":"为什么用鳄鱼作为吉祥物？","a":"鳄鱼生存力强、适应性强且耐心，是顶级捕食者。它象征力量与耐心，与 MAWA 的目标一致。"},
+      {"q":"确切的上线日期是什么？","a":"MAWA 计划于 2025 年 1 月 15 日在 Jupiter 上线。请关注社媒以获取准确公告和实时更新。"},
+      {"q":"流动性真的会锁定 12 个月吗？","a":"是的，流动性将通过 Jupiter Studio 的链上可验证机制锁定 12 个月。"},
+      {"q":"如何加入 MAWA 社区？","a":"加入我们的 X: https://x.com/Mawathecroco 和 Telegram: https://t.me/mawasolana。"},
+      {"q":"代币经济学和手续费如何？","a":"总量：1,000,000,000。分配：流动性 78%，解锁 2%，迁移供应 20%。交易税：2%。流动性锁定：12 个月。"}
+    ]
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
   }
 }

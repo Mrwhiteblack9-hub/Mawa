@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Ce composant affiche votre page d'accueil.
 import React from 'react';
 import Head from 'next/head';
@@ -55,3 +56,62 @@ const HomePage = () => {
 };
 
 export default HomePage;
+=======
+import { getDictionary } from '../../dictionaries'
+import HeroSection from '../../components/HeroSection'
+import AboutSection from '../../components/AboutSection'
+import RoadmapSection from '../../components/RoadmapSection'
+import TokenomicsSection from '../../components/TokenomicsSection'
+import FAQSection from '../../components/FAQSection'
+import HowToBuySection from '../../components/HowToBuySection'
+import SocialSection from '../../components/SocialSection'
+
+export default async function Home({ params: { lang } }) {
+  const dict = await getDictionary(lang)
+  return (
+    <div>
+      <section className="section">
+        <div className="container">
+          <HeroSection buyUrl={dict.buy_url} lang={lang} />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <AboutSection />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <HowToBuySection buyUrl={dict.buy_url} />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <TokenomicsSection />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <RoadmapSection />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <FAQSection />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <SocialSection />
+        </div>
+      </section>
+    </div>
+  )
+}
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default function About(){
   return (
     <div className="max-w-5xl mx-auto px-6 py-12">
@@ -43,3 +44,13 @@ const AboutPage = () => {
 =======
 export default AboutPage;
 >>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
+=======
+export default function AboutPage(){
+  return (
+    <div className="container section">
+      <h2 className="text-3xl font-bold">About MAWA</h2>
+      <p className="mt-4 text-white/80">MAWA combines strong identity and professional execution with an engaged community.</p>
+    </div>
+  )
+}
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)

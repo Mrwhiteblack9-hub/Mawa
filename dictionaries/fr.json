@@ -1,24 +1,84 @@
 {
   "buy_url": "https://jup.ag/swap/SOL-MAWA",
+<<<<<<< HEAD
+=======
+  "social": {
+    "telegram": "https://t.me/mawasolana",
+    "x": "https://x.com/Mawathecroco"
+  },
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
   "nav": {
     "about": "À propos",
     "tokenomics": "Tokenomics",
     "roadmap": "Roadmap",
+<<<<<<< HEAD
     "buy": "Acheter sur Jupiter"
+=======
+    "buy": "Acheter"
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
   },
   "hero": {
     "tag": "Mêmecoin sérieux",
     "title": "MAWA — Force, Élégance, Communauté",
+<<<<<<< HEAD
     "description": "Un mêmecoin sérieux avec une identité forte — mascotte crocodile, branding premium, et vision long terme.",
+=======
+    "description": "MAWA est un memecoin sur Solana avec une mascotte crocodile, branding premium et vision long terme.",
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
     "tokenomics_btn": "Tokenomics",
     "contract": "Contrat SPL"
   },
   "home": {
     "vision_title": "Vision",
+<<<<<<< HEAD
     "vision_text": "MAWA mélange culture mêmecoin et exécution sérieuse. Branding premium, roadmap publique et communauté engagée.",
     "highlights_title": "Points Clés",
     "supply": "Supply recommandé : 1,000,000,000",
     "lp_lock": "LP lock conseillé : 12 mois",
     "tax": "Taxe recommandée : 0% (optionnel)"
+=======
+    "vision_text": "MAWA combine culture memecoin et exécution professionnelle. Identité forte, liquidité verrouillée et tokenomics transparents.",
+    "highlights_title": "Points clés",
+    "supply": "Supply : 1,000,000,000",
+    "lp_lock": "LP lock : 12 months",
+    "tax": "Taxe : 2%"
+  },
+  "tokenomics": {
+    "title": "Tokenomics",
+    "distribution": [
+      {"label":"Liquidity (DEX)","value":"78%"},
+      {"label":"Vested","value":"2%"},
+      {"label":"Migrating supply","value":"20%"}
+    ],
+    "parameters": {
+      "supply":"1,000,000,000",
+      "decimals":"9",
+      "mint_authority":"renounced",
+      "lp_lock":"12 months",
+      "tax":"2%"
+    }
+  },
+  "roadmap": {
+    "title":"The MAWA Journey",
+    "phases":[
+      {"phase":"Phase 1: Foundation","status":"COMPLETED","desc":"Premium branding, site lancé, première communauté construite."},
+      {"phase":"Phase 2: Community Growth","status":"IN PROGRESS","desc":"Expansion des réseaux sociaux, engagement communautaire, hype pré-lancement."},
+      {"phase":"Phase 3: Jupiter Launch","status":"PLANNED","date":"2025-01-15","desc":"Lancement officiel du token sur Jupiter, provision initiale de liquidité."},
+      {"phase":"Phase 4: DEX Expansion","status":"PLANNED","desc":"Listings sur les DEXs majeurs de Solana et partenariats."},
+      {"phase":"Phase 5: CEX Listings","status":"PLANNED","desc":"Listings sur exchanges centralisés, expansion globale."},
+      {"phase":"Phase 6: Ecosystem Development","status":"PLANNED","desc":"Merch, collections NFT, programmes de récompense communauté."}
+    ]
+  },
+  "faq": {
+    "title":"FAQ",
+    "items":[
+      {"q":"Pourquoi choisir MAWA plutôt qu'un autre memecoin?","a":"MAWA se distingue par un branding premium, une vision long terme, la mascotte crocodile, liquidité verrouillée 12 mois et tokenomics transparents."},
+      {"q":"Pourquoi le crocodile comme mascotte?","a":"Les crocodiles symbolisent résistance, patience et puissance — qualités que MAWA vise à incarner."},
+      {"q":"Quelle est la date exacte du lancement?","a":"MAWA est planifié pour un lancement sur Jupiter le 15 janvier 2025. Suivez nos canaux pour l'annonce exacte."},
+      {"q":"La liquidité est-elle verrouillée 12 mois?","a":"Oui. La liquidité sera verrouillée 12 mois via un mécanisme vérifiable on-chain (Jupiter Studio)."},
+      {"q":"Comment rejoindre la communauté?","a":"Rejoins-nous sur X: https://x.com/Mawathecroco et Telegram: https://t.me/mawasolana."},
+      {"q":"Quels sont la tokenomics et la taxe?","a":"Supply: 1,000,000,000. Distribution: Liquidity 78%, Vested 2%, Migrating supply 20%. Taxe: 2%. LP lock: 12 months."}
+    ]
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
   }
 }

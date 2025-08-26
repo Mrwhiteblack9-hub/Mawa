@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import Link from 'next/link';
 
@@ -29,3 +30,26 @@ const SocialSection = () => {
 };
 
 export default SocialSection;
+=======
+export default function SocialSection() {
+  const items = [
+    { name: 'X / Twitter', href: 'https://x.com/Mawathecroco', desc: 'Actus, annonces, threads.' },
+    { name: 'Telegram', href: 'https://t.me/mawasolana', desc: 'Chat en direct avec la communauté.' },
+    { name: 'Discord', href: '#', desc: 'Canaux thématiques et events.' }
+  ]
+  return (
+    <section id="socials">
+      <h2 className="text-4xl font-bold mb-6">Rejoindre la communauté</h2>
+      <div className="grid md:grid-cols-3 gap-6">
+        {items.map((it, i)=>(
+          <a key={i} href={it.href} target="_blank" rel="noopener noreferrer" className="card hover:scale-[1.01] transition-transform">
+            <div className="text-xl font-semibold">{it.name}</div>
+            <p className="mt-2 text-white/80">{it.desc}</p>
+          </a>
+        ))}
+      </div>
+      <p className="text-white/50 text-sm mt-4">Les liens officiels : Telegram et X/Twitter.</p>
+    </section>
+  )
+}
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)

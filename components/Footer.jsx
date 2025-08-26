@@ -5,6 +5,7 @@ export default function Footer(){
         <div>© {new Date().getFullYear()} MAWA — Not financial advice</div>
         <div className="flex gap-4">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <a href="https://x.com/Mawathecroco?t=wsu9i2sYkDof5NMHoioXMw&s=09" className="hover:underline">Twitter</a>
           <a href="https://t.me/mawasolana" className="hover:underline">Telegram</a>
 =======
@@ -12,6 +13,10 @@ export default function Footer(){
           <a href="#" className="hover:underline">Twitter</a>
           <a href="#" className="hover:underline">Telegram</a>
 >>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
+=======
+          <a href="https://x.com/Mawathecroco" target="_blank" rel="noreferrer" className="hover:underline">X / Twitter</a>
+          <a href="https://t.me/mawasolana" target="_blank" rel="noreferrer" className="hover:underline">Telegram</a>
+>>>>>>> 1ddba00 (Initial commit of the complete MAWA website)
           <a href="#" className="hover:underline">Discord</a>
         </div>
       </div>
