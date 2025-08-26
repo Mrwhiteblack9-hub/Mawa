@@ -1,5 +1,8 @@
+// Ce composant affiche votre page d'accueil.
 import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
+// Utilisation de chemins d'importation relatifs pour éviter l'erreur de module non trouvé.
 import HeroSection from '../../../components/HeroSection';
 import AboutSection from '../../../components/AboutSection';
 import RoadmapSection from '../../../components/RoadmapSection';
@@ -18,7 +21,7 @@ const HomePage = () => {
       </Head>
 
       <div className="bg-gray-900 text-white min-h-screen font-sans">
-        {/* Barre de navigation */}
+        {/* Barre de navigation - on suppose que c'est un composant séparé */}
         {/* <Navbar /> */}
 
         <main>
