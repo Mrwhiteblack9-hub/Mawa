@@ -1,6 +1,7 @@
 // components/RoadmapSection.jsx
 import React from 'react';
-// This component displays a single roadmap item.
+
+// Ce composant affiche un seul élément de la feuille de route.
 const RoadmapItem = ({ phase, title, description }) => {
   return (
     <div className="flex flex-col md:flex-row items-center my-8">
@@ -14,28 +15,29 @@ const RoadmapItem = ({ phase, title, description }) => {
     </div>
   );
 };
-// This is the main component for the roadmap section.
+
+// C'est le composant principal pour la section de la feuille de route.
 const RoadmapSection = () => {
   const roadmap = [
     {
       phase: 'Phase 1',
-      title: 'Foundation & Community Building',
-      description: '• Launching the MAWA meme project with a transparent vision. • Developing a strong community on Telegram and X (formerly Twitter). • Securing smart contract audit and ensuring security measures. • Initiating the first phase of our marketing campaign on social media.'
+      title: 'Fondation & Bâtir la Communauté',
+      description: '• Lancement du projet MAWA avec une vision transparente. • Développement d\'une forte communauté sur Telegram et X (anciennement Twitter). • Audit du contrat intelligent et mesures de sécurité. • Lancement de la première phase de notre campagne marketing.'
     },
     {
       phase: 'Phase 2',
-      title: 'Strategic Launch & Visibility',
-      description: '• Fair Launch on Jupiter by January 15, 2025. • Locking liquidity for 12 months to ensure trust and security. • Deploying a massive marketing campaign, including partnerships with key influencers. • Gaining visibility on top crypto-ranking sites.'
+      title: 'Lancement Stratégique & Visibilité',
+      description: '• Lancement équitable sur Jupiter d\'ici le 15 Janvier 2025. • Verrouillage de la liquidité pour 12 mois pour la confiance et la sécurité. • Déploiement d\'une campagne marketing massive avec des influenceurs clés. • Visibilité sur les meilleurs sites de classement de crypto.'
     },
     {
       phase: 'Phase 3',
-      title: 'Ecosystem Expansion & Domination',
-      description: '• Developing the first MAWA-themed NFT collection for our community. • Exploring partnerships with other Solana projects. • Launching exclusive merchandise for our community. • Unveiling plans for the MAWA token utility and ecosystem.'
+      title: 'Expansion & Domination de l\'Écosystème',
+      description: '• Développement de la première collection NFT sur le thème de MAWA pour notre communauté. • Exploration de partenariats avec d\'autres projets Solana. • Lancement de produits dérivés exclusifs. • Dévoilement des plans pour l\'utilité et l\'écosystème du token MAWA.'
     },
     {
       phase: 'Phase 4',
-      title: 'Apex Predator Status',
-      description: '• Targeting major CEX listings to increase accessibility. • Implementing more long-term utility for the token, such as staking rewards. • Expanding our community globally and solidifying our position as a leading memecoin on Solana. • Continuing to grow the MAWA brand with unique initiatives.'
+      title: 'Statut de Prédateur Alpha',
+      description: '• Ciblage de listings sur les CEX majeurs pour augmenter l\'accessibilité. • Implémentation d\'utilités à long terme pour le token, comme les récompenses de staking. • Expansion de notre communauté mondialement et consolidation de notre position de memecoin leader sur Solana. • Poursuite de la croissance de la marque MAWA avec des initiatives uniques.'
     },
   ];
   return (
@@ -56,4 +58,5 @@ const RoadmapSection = () => {
     </section>
   );
 };
+
 export default RoadmapSection;
