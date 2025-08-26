@@ -11,9 +11,9 @@ export default function Header({ lang, nav, buy_url }){
         </Link>
 
         <nav className="hidden md:flex gap-6 items-center text-sm">
-          <Link href={`/${lang}/about`}>{nav.about}</Link>
-          <Link href={`/${lang}/tokenomics`}>{nav.tokenomics}</Link>
-          <Link href={`/${lang}/roadmap`}>{nav.roadmap}</Link>
+          <Link href={`/${lang}#about`}>{nav.about}</Link>
+          <Link href={`/${lang}#tokenomics`}>{nav.tokenomics}</Link>
+          <Link href={`/${lang}#roadmap`}>{nav.roadmap}</Link>
           <a className="btn-primary" href={buy_url} target="_blank" rel="noopener noreferrer">{nav.buy}</a>
           <LanguageSwitcher currentLang={lang} />
         </nav>
