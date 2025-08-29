@@ -10,8 +10,8 @@ export default function Footer(){
           <a href="https://t.me/mawasolana" className="hover:underline">Telegram</a>
 =======
           {/* Remplacez les # par les vrais liens */}
-          <a href="#" className="hover:underline">Twitter</a>
-          <a href="#" className="hover:underline">Telegram</a>
+          <a href="https://x.com/Mawathecroco" className="hover:underline">Twitter</a>
+          <a href="https://t.me/mawasolana" className="hover:underline">Telegram</a>
 >>>>>>> 8994ef1 (Initial commit of the complete MAWA site)
 =======
           <a href="https://x.com/Mawathecroco" target="_blank" rel="noreferrer" className="hover:underline">X / Twitter</a>
